@@ -1,0 +1,54 @@
+.container{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+.left{
+    float: left;
+    width: 740px;
+    height: 428px;
+    background-color: red;
+    margin-bottom: 8px;
+}
+
+.right{
+    float: right;
+    width: 332px;
+    height: 428px;
+    background-color: blue;
+    margin-bottom: 8px;
+}
+
+.gnb{
+    background-color: green;
+    float: left;
+    padding: 8px 0 8px 0;
+    margin-bottom: 8px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 16px;
+}
+
+li:nth-child(1){
+    padding: 0;
+}
+
+.rank{
+    background-color: aqua;
+    float: right;
+    padding: 8px 0 8px 0;
+    margin-bottom: 8px;
+}
+
+.footer{
+    width: 100%;
+    float: left;
+    margin-bottom: 8px;
+    height: 80px;
+    background-color: yellow;
+}
